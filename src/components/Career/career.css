@@ -1,0 +1,30 @@
+.post-card{
+    border-left: solid 3px orangered;
+    box-shadow: 5px 5px 7px -5px #cd5c5c;
+    cursor: pointer;
+}
+#dark .post-card{
+    background-color: #38004c;
+    color: white;
+}
+.post-card:hover{
+    border-left: solid 3px #38004c;
+}
+#dark .post-card:hover{
+    background-color: black; 
+}
+.post-card-open{
+    border-left: solid 3px #38004c;
+    box-shadow: 5px 5px 7px -5px #cd5c5c;
+    cursor: pointer;
+}
+#dark .post-card-open{
+    background-color: black;
+}
+.pagination-details{
+    box-shadow: 5px 5px 7px -5px #cd5c5c;
+}
+#dark .pagination-details{
+    background-color: #38004c;
+    color: white;
+}

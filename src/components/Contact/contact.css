@@ -1,0 +1,22 @@
+.contact-section{
+    height: auto;
+    background: url("../../images/contact.jpg") no-repeat center center/cover;
+}
+.form-style input{
+    border-radius: 30px;
+}
+.form-style select{
+    border-radius: 30px;
+}
+.form-style textarea{
+    border-radius: 30px;
+}
+.form-style button{
+    border-radius: 30px;
+    background-color: brown;
+    color: white;
+}
+.form-style button:hover{
+    background-color: #38004c;
+    color: white;
+}

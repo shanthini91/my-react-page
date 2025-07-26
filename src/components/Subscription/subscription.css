@@ -1,0 +1,44 @@
+.subscription-container{
+    height: auto;
+    color: white;
+    background-color: rgba(248, 14, 14, 0.571);
+    position: relative;
+}
+.subscription-container:before{
+    content: "";
+    background: url("../../images/subscribe.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.subscription-form input{
+    width: 40%;
+    height: 20%;
+    padding: 8px;
+    border: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.subscription-form button{
+    width: 40%;
+    height: 20%;
+    padding: 8px;
+    border: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgb(14, 70, 53);
+    color: white;
+}
+.subscription-form button:hover{
+    background-color: #38004c;
+    color: white;
+}

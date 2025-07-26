@@ -1,0 +1,52 @@
+.feedback-slider{
+    height: auto;
+}
+#dark .feedback-slider{
+    background-color: #51066d; 
+}
+#dark .feedback-section{
+    background-color: #51066d; 
+    height: 350px;
+}
+.content-slider{
+color: white;
+padding: 10px;
+background-color: rgb(231, 119, 45);
+text-align: center;
+margin-bottom: 30px;
+cursor: pointer;
+}
+#dark .content-slider{
+    background-color: #38004c;
+}
+.content-slider:hover{
+    background-color: #38004c;
+    box-shadow: 5px 5px 7px 1px #a836d1;
+    transition-duration: 1s;
+    }
+#dark .content-slider:hover{
+    background-color: black;
+}
+.content-slider img{
+    height: 80px;
+    width: 80px;
+    border-radius: 90px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    justify-content: center;
+    margin-top: -30px;
+    align-items: center;
+}
+.slick-prev:before{
+    color:  rgb(231, 119, 45) !important;
+    font-size: 30px !important; 
+}
+.slick-next:before{
+    color:  rgb(231, 119, 45) !important;
+    font-size: 30px !important; 
+}
+.slick-disable{
+    opacity: 0;
+    pointer-events: none;
+}

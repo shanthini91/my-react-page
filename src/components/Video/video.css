@@ -1,0 +1,17 @@
+.video-info{
+    box-shadow: 5px 5px 7px -5px #cd5c5c;
+    cursor: pointer;
+}
+#dark .video-info{
+    background-color: #38004c;
+}
+.video-info:hover{
+    box-shadow: 7px 7px 14px 1px #cd5c5c;
+    border-bottom: solid 3px orangered;
+}
+
+@media(max-width:1000px){
+    .video{
+        height: auto;
+    }
+}

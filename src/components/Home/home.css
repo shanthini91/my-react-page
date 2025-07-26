@@ -1,0 +1,81 @@
+.home{
+    height: 100vh;
+    color: white;
+    background-color: #cd5c5cda;
+    position: relative;
+}
+.home:before{
+    content: "";
+    background: url("../../images/React.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.home-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin: auto;
+    padding: 50px;
+}
+.view-details-home-button{
+    background-color: #f7d010;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.view-details-home-button:hover{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    color: #000;
+    padding: 10px;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.heading-style{
+    font-weight: bold;
+    font-size: 60px;
+}
+.theme-change{
+    justify-content: center;
+    height: 50px;
+    background-color: brown;
+    right: 0;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    position: fixed;
+    border-radius: 100px;
+    cursor: pointer;
+    z-index: 1;
+}
+.theme-icon{
+    animation: rotation infinite 9s linear;
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width:1000px){
+    .home{
+        height: auto;
+        padding-top: 50px;
+        margin-top: -16px;
+    }
+}
